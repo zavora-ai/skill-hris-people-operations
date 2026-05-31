@@ -1,25 +1,11 @@
 ---
 name: hris-people-operations
 description: Orchestrate HR operations — employee lookup, department management, time-off requests, payroll queries, org chart navigation, and headcount reporting. Use when looking up employees, managing leave requests, checking org structure, running payroll, viewing the directory, or analyzing headcount.
-version: "1.0.0"
 license: Apache-2.0
-allowed-tools:
-  - list_employees
-  - get_employee
-  - create_employee
-  - update_employee
-  - list_departments
-  - get_department
-  - request_time_off
-  - list_time_off
-  - approve_time_off
-  - list_payroll
-  - run_payroll
-  - get_org_chart
-  - get_headcount
-  - get_directory
-tags: [business, hr, people, payroll, org-chart]
+compatibility: Requires mcp-hris server connected.
+allowed-tools: [list_employees, get_employee, create_employee, update_employee, list_departments, get_department, request_time_off, list_time_off, approve_time_off, list_payroll, run_payroll, get_org_chart, get_headcount, get_directory]
 metadata:
+  category: mcp-enhancement
   author: Zavora AI
   mcp-server: mcp-hris
   revenue-impact: indirect
